@@ -10,6 +10,9 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .portfolio__item:hover {
@@ -30,6 +33,16 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+    align-self: center;
+}
+
+.portfolio__img {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.portfolio__title{
+    align-self: center;
 }
 
 /*============== MEDIA QUERIES (MEDIUM DEVICES) ie. tablets ============= */

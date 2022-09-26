@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
+import AVTR1 from '../../assets/felix.jpg'
+import AVTR2 from '../../assets/samuel.jpg'
+import AVTR3 from '../../assets/grace.jpeg'
+import AVTR4 from '../../assets/collins.jpg'
 
 // import Swiper core and required modules
 import {Pagination} from 'swiper';
@@ -19,23 +19,23 @@ import 'swiper/css/pagination';
 const data = [
   {
       avatar: AVTR1,
-      name: "Tina Snow",
-      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos minima debitis ab deleniti saepe ipsum suscipit ipsam commodi nulla natus. Aut ab libero fugit voluptatum quaerat officia ullam. Id, suscipit!"
+      name: "Felix",
+      review: "Elema does such an amazing job!. Very professional and timely. I was wowed by how smooth and beautiful the finished website looked. I definitely recommend."
   },
   {
       avatar: AVTR2,
-      name: "Harvey Specter",
-      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat, consectetur deleniti enim, dignissimos mollitia distinctio provident illo laborum quis molestiae cumque voluptatem. Minus commodi officiis earum quod quidem. Fuga?"
+      name: "Samuel",
+      review: "I totally love what I got. The website is stunning and I can tell Elema pays so much attention to detail. The website looks really sleek and works perfectly."
   },
   {
       avatar: AVTR3,
-      name: "Steve Harvey",
-      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reiciendis, magni explicabo deserunt ab placeat magnam. Non explicabo dignissimos cupiditate sunt perspiciatis officia, asperiores neque pariatur itaque ea, impedit repellendus?"
+      name: "Grace",
+      review: "Elema is my go-to guy for building and maintaining my website. He knows his onions and always delivers an awesome product. Very easy to work with too."
   },
   {
       avatar: AVTR4,
-      name: "John Terry",
-      review: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam maxime doloribus ipsum cum omnis totam, assumenda explicabo! Rerum iure veritatis quo illo? Unde omnis fuga repudiandae hic atque tempore eligendi aperiam modi, voluptas quas repellendus pariatur, dolores est eius exercitationem."
+      name: "Collins",
+      review: "Elema transformed my idea for a website into a real, working product. It's so beautiful and works great!"
   },
 ]
 

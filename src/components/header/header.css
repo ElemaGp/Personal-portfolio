@@ -50,6 +50,10 @@ header {
     padding: 0.5rem 0.5rem 1.5rem 0.5rem;
 }
 
+.me img {
+    border-radius: inherit;
+}
+
 /* ============= SCROLL DOWN ========== */
 .scroll__down {
     position: absolute;

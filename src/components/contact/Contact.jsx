@@ -35,17 +35,12 @@ const Contact = () => {
             <h5>elemagodspower@gmail.com</h5>
             <a href="mailto:elemagodspower@gmail.com" target="_blank">Send a message</a>
           </article>
-          <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon"/>
-            <h4>Messenger</h4>
-            <h5>The Programmer</h5>
-            <a href="https://m.me/elema.godspower" target="_blank">Send a message</a>
-          </article>
+          
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon"/>
             <h4>Whatsapp</h4>
-            <h5>+123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone=+123456789" target="_blank">Send a message</a>
+            <h5>+2347011733379</h5>
+            <a href="https://api.whatsapp.com/send?phone=+2347011733379" target="_blank">Send a message</a>
           </article>
         </div>
         {/*END OF CONTACT OPTIONS*/}

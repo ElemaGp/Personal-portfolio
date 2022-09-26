@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/me-about.jpeg'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -21,27 +21,16 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-            <article className='about__card'>
-            <FaAward className='about__icon' />
-            <h5>Experience</h5>
-            <small>3+ Years Working</small>
-            </article>
-
-            <article className='about__card'>
-            <FiUsers className='about__icon' />
-            <h5>Clients</h5>
-            <small>200+ Worldwide</small>
-            </article>
 
             <article className='about__card'>
             <VscFolderLibrary className='about__icon' />
             <h5>Projects</h5>
-            <small>80+ Completed</small>
+            <small>Several Projects Completed using Reactjs, Javascript, Express, Nodejs, Mongoose Mongodb, axios, firebase, HTML, CSS and SASS and JWT authentication.  </small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum dicta ipsa culpa doloremque possimus suscipit voluptates, mollitia id necessitatibus ad recusandae nesciunt aperiam rerum distinctio aliquid veniam nam deserunt eum.
+            I'm a full-stack developer experienced with front-end development, back-end development, creating APIs and fetching data through API endpoints, and working with databases. I'm also experienced with git and github for team collaborations and version control.
           </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>

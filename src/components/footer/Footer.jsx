@@ -3,13 +3,15 @@ import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {IoLogoTwitter} from 'react-icons/io'
+import {BsLinkedin} from 'react-icons/bs'
+import {FaGithub} from 'react-icons/fa'
 
 
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>GODSPOWER</a>
+      <a href="#" className='footer__logo'>Elema</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -22,13 +24,13 @@ const Footer = () => {
       </ul>
         
       <div className="footer__socials">
-        <a href="https://facebook.com"><FaFacebookF /></a>
-        <a href="https://instagram.com"><FiInstagram /></a>
-        <a href="https://twitter.com"><IoLogoTwitter /></a>
+        <a href="https://www.linkedin.com/in/g-i-elema-4617b0247/"><BsLinkedin /></a>
+        <a href="https://github.com/ElemaGp"><FaGithub /></a>
+        <a href="http://twitter.com/ikechhi"><IoLogoTwitter /></a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; GODSPOWER Portfolio. All rights reserved.</small>
+        <small>&copy; ELEMA Portfolio. All rights reserved.</small>
       </div>
 
     </footer>

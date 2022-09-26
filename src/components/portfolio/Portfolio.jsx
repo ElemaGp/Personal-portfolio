@@ -1,59 +1,52 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.jpg'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/netflix-clone.png'
+import IMG2 from '../../assets/Sports-blog.png'
+import IMG3 from '../../assets/1-Liner.png'
+import IMG4 from '../../assets/meal-recipies.png'
+import IMG5 from '../../assets/personal-blog.png'
+import IMG6 from '../../assets/stories-blog.png'
 
 const data = [
   {
       id: 1,
       image: IMG1,
-      title: 'Orion UI kit - Charts templates & infographics in Figma',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/18672326-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+      title: 'Netflix clone',
+      github: 'https://github.com/ElemaGp/netflix-clone-MERN-stack.git',
 
   },
   {
       id: 2,
       image: IMG2,
-      title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/18672443-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-
+      title: 'Sports Blog',
+      github: 'https://github.com/ElemaGp/Sports-blog-MERN-Stack.git',
+      
   },
   {
       id: 3,
       image: IMG3,
-      title: 'The third Orion UI kit - Charts templates',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/18672312-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-
+      title: 'Clever 1-Liners Journal',
+      github: 'https://github.com/ElemaGp/1-Liner-Journal.git',
+    
   },
   {
       id: 4,
       image: IMG4,
-      title: 'Eclipse - Figma dashboard UI kit for data design web apps',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/18474854-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-
+      title: 'Meal Recipies',
+      github: 'https://github.com/ElemaGp/Meal-Recipies.git',
+   
   },
   {
       id: 5,
       image: IMG5,
-      title: 'UI/UX - UI kit for data design web apps',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/18381226-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-
+      title: 'Personal blog',
+      github: 'https://github.com/ElemaGp/nodejs-blog.git',
   },
   {
       id: 6,
       image: IMG6,
-      title: 'Dashboard UI kit for data design web apps',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/18451124-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+      title: 'Stories blog',
+      github: 'https://github.com/ElemaGp/story-blog.git',
 
   }
 
@@ -71,12 +64,11 @@ const Portfolio = () => {
             return (
               <article key={id} className='portfolio__item'>
               <div className="portfolio__item-image">
-                <img src={image} alt={title} />
+                <img src={image} alt={title} className="portfolio__img"/>
               </div>
-              <h3> {title}</h3>
+              <h3 className="portfolio__title"> {title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn' target='blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='blank'>Live Demo</a>
               </div>
             </article>
             )
