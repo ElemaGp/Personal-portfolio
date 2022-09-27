@@ -30,7 +30,7 @@ const About = () => {
           </div>
 
           <p>
-            I'm a full-stack developer experienced with front-end development, back-end development, creating APIs and fetching data through API endpoints, and working with databases. I'm also experienced with git and github for team collaborations and version control.
+            I'm a full-stack developer experienced in front-end development, back-end development including creating APIs. Fetching data through API endpoints, and working with databases. I'm also experienced with git and github for team collaborations and version control.
           </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
