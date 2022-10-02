@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 107vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -83,5 +83,14 @@ header {
     .header__socials, .scroll__down {
         display: none;
     }
+}
+
+/*============== MEDIA QUERIES (SMALLER DEVICES) ie. phones ============= */
+@media screen and (max-width: 414px) {
+    
+    .me img {
+        height: inherit;
+    }
+
 }
 
