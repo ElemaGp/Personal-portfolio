@@ -60,6 +60,30 @@ const Experience = () => {
               <small className='text-light'>Experienced</small>
               </div>
             </article>
+            
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+              <h4>Semantic-UI</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+              <h4>Context API</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+           
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+              <h4>Redux</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
 
           </div>
         </div>
