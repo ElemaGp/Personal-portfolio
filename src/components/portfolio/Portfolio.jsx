@@ -6,6 +6,7 @@ import IMG3 from '../../assets/1-Liner.png'
 import IMG4 from '../../assets/meal-recipies.png'
 import IMG5 from '../../assets/personal-blog.png'
 import IMG6 from '../../assets/stories-blog.png'
+import IMG7 from '../../assets/Ecommerce.png'
 
 const data = [
   {
@@ -47,6 +48,13 @@ const data = [
       image: IMG6,
       title: 'Stories blog',
       github: 'https://github.com/ElemaGp/story-blog.git',
+
+  },
+  {
+      id: 7,
+      image: IMG7,
+      title: 'E-commerce store',
+      github: 'https://github.com/ElemaGp/E-commerce-PROJECT-react-redux.git',
 
   }
 
