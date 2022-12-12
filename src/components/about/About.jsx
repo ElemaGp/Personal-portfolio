@@ -25,12 +25,12 @@ const About = () => {
             <article className='about__card'>
             <VscFolderLibrary className='about__icon' />
             <h5>Projects</h5>
-            <small>Several Projects Completed using Reactjs, Javascript, Express, Nodejs, Mongoose Mongodb, axios, firebase, HTML, CSS and SASS and JWT authentication.  </small>
+            <small>Several Projects Completed using Reactjs, Javascript, Express, Nodejs, Mongoose Mongodb, axios, firebase, HTML, CSS, SASS, JWT, amongst other tools.  </small>
             </article>
           </div>
 
           <p>
-            I'm a full-stack developer experienced in front-end development, back-end development including creating APIs. Fetching data through API endpoints, and working with databases. I'm also experienced with git and github for team collaborations and version control.
+            I am a front-end developer experienced in Javascript, ReactJS, SASS, CSS, Semantic-UI, Bootstrap, HTML, Styled Components amongst other tools. I am also experienced in consuming APIs. I have additional backend skills such as creation of APIs with JWT authentication system using NodeJS and Express. And database skills with MongoDB and Firebase. I am also experienced in using git and github for team collaboration and version control.
           </p>
 
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
