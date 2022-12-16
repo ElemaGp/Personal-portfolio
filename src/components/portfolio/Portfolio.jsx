@@ -14,14 +14,14 @@ const data = [
       image: "https://drive.google.com/uc?export=view&id=145Y6LLrhG_gcROIIyCq9U57x_5Keon1Z",
       title: 'Ticked - Productivity App',
       github: 'https://github.com/workshopapps/todoassistant.web',
-
+      demo: "https://ticked.hng.tech/",
   },
   {
       id: 2,
       image: "https://drive.google.com/uc?export=view&id=1-jaHrm0HmZsLQdlTYFZJtEuwZ3nuTIyg",
       title: 'Netflix clone',
       github: 'https://github.com/ElemaGp/netflix-clone-MERN-stack.git',
-
+      
   },
   {
       id: 3,
@@ -84,6 +84,7 @@ const Portfolio = () => {
               <h3 className="portfolio__title"> {title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn' target='blank'>Github</a>
+                {demo && <a href={demo} className='btn' target='blank'>Live</a>}
               </div>
             </article>
             )
