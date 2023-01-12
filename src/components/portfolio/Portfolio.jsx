@@ -11,55 +11,55 @@ import './portfolio.css'
 const data = [
   {
       id: 1,
-      image: "https://drive.google.com/uc?export=view&id=145Y6LLrhG_gcROIIyCq9U57x_5Keon1Z",
+      image: "https://drive.google.com/uc?export=view&id=1_HZXgsEYGhSLL5IeCgHO-wG-GPiZq2Pl",
       title: 'Ticked - Productivity App',
       github: 'https://github.com/workshopapps/todoassistant.web',
-      demo: "https://ticked.hng.tech/",
+      demo: "https://getticked.com/",
   },
   {
       id: 2,
-      image: "https://drive.google.com/uc?export=view&id=1-jaHrm0HmZsLQdlTYFZJtEuwZ3nuTIyg",
+      image: "https://drive.google.com/uc?export=view&id=1NmvfGdBsLVGhQYOHI3RYdWlrDkaRWkce",
       title: 'Netflix clone',
       github: 'https://github.com/ElemaGp/netflix-clone-MERN-stack.git',
       
   },
   {
       id: 3,
-      image: "https://drive.google.com/uc?export=view&id=10EP1j0IiICE48abar7eze9H8zhHDSKOk",
+      image: "https://drive.google.com/uc?export=view&id=1SgrFXenj7neFs_dRvArqvYiXgLJMjJBr",
       title: 'Sports Blog',
       github: 'https://github.com/ElemaGp/Sports-blog-MERN-Stack.git',
       
   },
   {
       id: 4,
-      image: "https://drive.google.com/uc?export=view&id=1FDKvUqHedj2EzomDQSHI7VKLlbW_dg-J",
+      image: "https://drive.google.com/uc?export=view&id=1sb2j3T2jy4jsQjpHhKVqEkCVdmJSsQh6",
       title: 'Clever 1-Liners Journal',
       github: 'https://github.com/ElemaGp/1-Liner-Journal.git',
     
   },
   {
       id: 5,
-      image: "https://drive.google.com/uc?export=view&id=1WO9KF1DSaNosRr410oXnwoyAAT__vn6h",
+      image: "https://drive.google.com/uc?export=view&id=1Shqw7u4w2XuDuefhCr2E5Vvkgq8nW0Fb",
       title: 'Meal Recipies',
       github: 'https://github.com/ElemaGp/Meal-Recipies.git',
    
   },
   {
       id: 6,
-      image: "https://drive.google.com/uc?export=view&id=1z9TUs4eXGPeh_hWKVUBN-v8O1prfLzR_",
+      image: "https://drive.google.com/uc?export=view&id=1TgoWrSuT1GVOksWQubuqc_l1qAasHioK",
       title: 'Personal blog',
       github: 'https://github.com/ElemaGp/nodejs-blog.git',
   },
   {
       id: 7,
-      image: "https://drive.google.com/uc?export=view&id=13Qxk5HMdfn4oLvwy5lfRyJ-n9YoTdbl_",
+      image: "https://drive.google.com/uc?export=view&id=1iJN-BQvS9UW1iB-87mfH6ky1sZqZlC3h",
       title: 'Stories blog',
       github: 'https://github.com/ElemaGp/story-blog.git',
 
   },
   {
       id: 8,
-      image: "https://drive.google.com/uc?export=view&id=1GEWg4PSciEgE45SDhFp7E_cXJGzyS1o0",
+      image: "https://drive.google.com/uc?export=view&id=1AU_9LJ9wuTvVxyoZ0DXAEKVQs9Y0Anmr",
       title: 'E-commerce store',
       github: 'https://github.com/ElemaGp/E-commerce-PROJECT-react-redux.git',
 

@@ -18,22 +18,22 @@ import 'swiper/css/pagination';
 
 const data = [
   {
-      avatar: "https://drive.google.com/uc?export=view&id=1frXRM_er0AvM0WFCO6rtkDEczS2zuCmC",
+      avatar: "https://drive.google.com/uc?export=view&id=1PyLLX-IzoV2-B2m_BikY-6tiicOqgIwL",
       name: "Felix",
       review: "Elema does such an amazing job!. Very professional and timely. I was wowed by how smooth and beautiful the finished website looked. I definitely recommend."
   },
   {
-      avatar: "https://drive.google.com/uc?export=view&id=1J7mzaYc4Jqn3NN3zrF3Pe-AMEhNx9vhv",
+      avatar: "https://drive.google.com/uc?export=view&id=1vwRh9fDgPg1cH7uM2YC8WW8qgKZaN-yI",
       name: "Samuel",
       review: "I totally love what I got. The website is stunning and I can tell Elema pays so much attention to detail. The website looks really sleek and works perfectly."
   },
   {
-      avatar: "https://drive.google.com/uc?export=view&id=1q2Rb7h0riWCyTBrhvQtycJMJdeHOVtku",
+      avatar: "https://drive.google.com/uc?export=view&id=1pKtNpzQY95-CzLOLSKWOm8oz-He6pw9a",
       name: "Grace",
       review: "Elema is my go-to guy for building and maintaining my website. He knows his onions and always delivers an awesome product. Very easy to work with too."
   },
   {
-      avatar: "https://drive.google.com/uc?export=view&id=1i_Dqa8FcxWulyko3nwIBFoqJ_Epb_wQl",
+      avatar: "https://drive.google.com/uc?export=view&id=1eT6teKXkvydHVuLbIOGRr373yfsWhU4l",
       name: "Collins",
       review: "Elema transformed my idea for a website into a real, working product. It's so beautiful and works great!"
   },
