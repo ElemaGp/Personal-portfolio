@@ -69,3 +69,16 @@
         padding: 2rem 1rem;
     }
 }
+
+
+/*============== MEDIA QUERIES (SMALLER DEVICES) ie. phones ============= */
+@media screen and (max-width: 280px) {
+    .experience__container {
+        gap: 1rem;
+    }
+
+    .experience__container > div {
+        width: 100%;
+        padding: 2rem 0;
+    }
+}
