@@ -52,6 +52,7 @@ header {
 
 .me img {
     border-radius: inherit;
+    height: inherit;
 }
 
 /* ============= SCROLL DOWN ========== */
@@ -66,7 +67,7 @@ header {
 }
 
 /*============== MEDIA QUERIES (MEDIUM DEVICES) ie. tablets ============= */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 912px) {
     header {
         height: 68vh;
 
@@ -86,11 +87,22 @@ header {
 }
 
 /*============== MEDIA QUERIES (SMALLER DEVICES) ie. phones ============= */
-@media screen and (max-width: 414px) {
-    
-    .me img {
-        height: inherit;
+@media screen and (max-width: 375px) {
+    header {
+        padding-top: 2rem;
     }
 
+    .me {
+        height: 20rem;
+    }
+}
+
+/*============== MEDIA QUERIES (MUCH SMALLER DEVICES) ie. phones ============= */
+@media screen and (max-width: 280px) {
+    
+    .me {
+        width: 15rem;
+        margin-left: 3.5rem;
+    }
 }
 
